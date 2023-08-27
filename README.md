@@ -1,8 +1,17 @@
-# React + Vite
+# Counter with Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Using state management to increment the counter using Redux. Redux library has all it requires for store management, and react-redux binds react and redux libraries together.
 
-Currently, two official plugins are available:
+The store management with redux has 3 main components:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Actions - These are blocks of information that send data from your application to your store. Actions must have a type property indicating the action being performed.
+
+- Reducers - Reducers specify how the application’s state changes in response to actions sent to the store.
+
+- Store - The Store is the object that combines the action and reducer. The store has the following responsibilities: holds application state, allows access to state, and allows state to be updated via dispatch(action).
+
+## How to run React with Vite
+First go to your project's directory, then run the command <br /><br />
+`npm install` <br /><br />
+Follow by <br /><br />
+`npm run dev`
