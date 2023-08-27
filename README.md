@@ -10,6 +10,13 @@ The store management with redux has 3 main components:
 
 - Store - The Store is the object that combines the action and reducer. The store has the following responsibilities: holds application state, allows access to state, and allows state to be updated via dispatch(action).
 
+## Demo
+
+
+https://github.com/PhotKosee/practice-redux/assets/114990364/a1e4c5b6-e3ef-4f7d-b9ce-1e9c46b48c58
+
+
+
 ## How to run React with Vite
 First go to your project's directory, then run the command <br /><br />
 `npm install` <br /><br />
